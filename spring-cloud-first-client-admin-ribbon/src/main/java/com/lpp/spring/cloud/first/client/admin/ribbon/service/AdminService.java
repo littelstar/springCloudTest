@@ -13,6 +13,6 @@ public class AdminService {
 
     public String sayHi(String message){
 
-        return restTemplate.getForObject("http://spring-cloud-first-service/hi?message="+message,String.class);
+        return restTemplate.getForObject("http://SPRING-CLOUD-FIRST-SERVICE/hi?message="+message,String.class);
     }
 }

@@ -13,9 +13,9 @@
     <artifactId>spring-cloud-first-service</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-cloud-first-service</name>
-    <url>http://www.funtl.com</url>
-    <inceptionYear>2018-Now</inceptionYear>
+    <!--<name>spring-cloud-first-service</name>-->
+    <!--<url>http://www.funtl.com</url>-->
+    <!--<inceptionYear>2018-Now</inceptionYear>-->
 
     <dependencies>
         <!-- Spring Boot Begin -->
@@ -24,6 +24,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <!-- Spring Boot End -->
 
         <!-- Spring Cloud Begin -->
@@ -31,8 +35,26 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
         <!-- Spring Cloud End -->
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
     <build>
@@ -42,7 +64,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.lpp.spring.cloud.first.eureka.EurekaApplication</mainClass>
+                    <mainClass>com.lpp.spring.cloud.first.service.ServiceAdminApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

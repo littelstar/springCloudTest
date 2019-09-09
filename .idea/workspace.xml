@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6666e74d-77ae-424c-9140-b5731ecf5068" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/service/AdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/resoureces/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/resoureces/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-eureka/spring-cloud-first-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-eureka/spring-cloud-first-eureka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-eureka/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-service/spring-cloud-first-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-service/spring-cloud-first-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/ServiceAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/ServiceAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-service/src/main/resoureces/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-service/src/main/resoureces/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-first-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-first-service/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-first-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-first-eureka/target/" />
@@ -19,34 +29,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/resoureces/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="109">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestTemplateConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/config/RestTemplateConfiguration.java">
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="122">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/service/AdminService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-first-eureka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="15" column="109" selection-start-line="15" selection-start-column="109" selection-end-line="15" selection-end-column="109" />
+            <state relative-caret-position="-311">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-264">
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceAdminApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/ServiceAdminApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +85,26 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/src/main/resoureces/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="162">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-first-eureka/src/main/java/com/lpp/spring/cloud/first/eureka/EurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-first-eureka/src/main/resoureces/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -79,21 +125,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/spring-cloud-first-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-first-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-first-eureka/src/main/java/com/lpp/spring/cloud/first/eureka/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-first-eureka/src/main/resoureces/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-first-service-admin/src/main/resoureces/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-first-service-admin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-first-service-admin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-first-service-admin/src/main/java/com/lpp/spring/cloud/first/service/admin/ServiceAdminApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-first-service/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-first-service/src/main/resoureces/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/WebAdminRibbonApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/ServiceAdminApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/resoureces/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/controlller/AdminController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/config/RestTemplateConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-first-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-first-service/src/main/resoureces/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/ServiceAdminApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-first-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/resoureces/application.yml" />
       </list>
     </option>
   </component>
@@ -108,6 +156,10 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-first-dependencies" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring-cloud-first-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -117,16 +169,11 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-first-service-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-cloud-first-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-first-service-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-first-service-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-cloud-first-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -143,12 +190,13 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,12 +257,65 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="controlller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spirng-cloud-first" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-first-client-admin-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
               <item name="spirng-cloud-first" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-first-client-admin-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resoureces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spirng-cloud-first" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-first-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spirng-cloud-first" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-first-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spirng-cloud-first" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-first-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spirng-cloud-first" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-first-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spirng-cloud-first" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-first-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spirng-cloud-first" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-first-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resoureces" type="462c0819:PsiDirectoryNode" />
@@ -253,6 +354,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spirng-cloud-first" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-first-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spirng-cloud-first" type="b2602c69:ProjectViewProjectNode" />
@@ -281,7 +392,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="RemoteServers" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -302,6 +413,7 @@
       <list>
         <RuleState>
           <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+          <option name="enabled" value="false" />
         </RuleState>
         <RuleState>
           <option name="name" value="StatusDashboardGroupingRule" />
@@ -325,10 +437,21 @@
     <configuration name="ServiceAdminApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lpp.spring.cloud.first.service.ServiceAdminApplication" />
       <module name="spring-cloud-first-service" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lpp.spring.cloud.first.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WebAdminRibbonApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lpp.spring.cloud.first.client.admin.ribbon.WebAdminRibbonApplication" />
+      <module name="hello-spring-cloud-web-admin-ribbon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpp.spring.cloud.first.client.admin.ribbon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,9 +475,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="spring-cloud-first-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lpp.spring.cloud.first.eureka.EurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ServiceAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-first-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lpp.spring.cloud.first.service.ServiceAdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="WebAdminRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring-cloud-web-admin-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lpp.spring.cloud.first.client.admin.ribbon.WebAdminRibbonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -379,13 +513,17 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.WebAdminRibbonApplication" />
+      <item itemvalue="Spring Boot.ServiceAdminApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Application.EurekaApplication" />
       <item itemvalue="Application.ServiceAdminApplication" />
+      <item itemvalue="Application.WebAdminRibbonApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServiceAdminApplication" />
+        <item itemvalue="Application.WebAdminRibbonApplication" />
         <item itemvalue="Application.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -401,12 +539,22 @@
       <option name="presentableId" value="Default" />
       <updated>1567674407441</updated>
       <workItem from="1567674408934" duration="917000" />
-      <workItem from="1567730280289" duration="16878000" />
+      <workItem from="1567730280289" duration="17426000" />
+      <workItem from="1567990790179" duration="9727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17795000" />
+    <option name="totallyTimeSpent" value="28070000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -414,7 +562,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.34861407" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
@@ -423,28 +571,28 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.45779222" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.49729145" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.63095236" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4539545" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2889126" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.40086675" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.50270855" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4496208" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27238807" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info id="Web" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,128 +602,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-dependencies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service-admin/src/main/resoureces/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="42" column="95" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service-admin/src/main/java/com/lpp/spring/cloud/first/service/admin/ServiceAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/target/classes/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-dependencies/spring-cloud-first-dependencies.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-eureka/src/main/resoureces/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-dependencies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/WebAdminRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="33" lean-forward="true" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-eureka/src/main/java/com/lpp/spring/cloud/first/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/ServiceAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/resoureces/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -585,8 +615,6 @@
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -600,11 +628,147 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/service/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="15" column="109" selection-start-line="15" selection-start-column="109" selection-end-line="15" selection-end-column="109" />
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service-admin/src/main/resoureces/application.yml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service-admin/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service-admin/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service-admin/src/main/java/com/lpp/spring/cloud/first/service/admin/ServiceAdminApplication.java" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/config/RestTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/controlller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/java/com/lpp/spring/cloud/first/client/admin/ribbon/WebAdminRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-eureka/src/main/resoureces/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-eureka/src/main/java/com/lpp/spring/cloud/first/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/src/main/resoureces/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-service/src/main/java/com/lpp/spring/cloud/first/service/ServiceAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/src/main/resoureces/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
