@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/spring-cloud-first-service-admin/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/spring-cloud-first-service/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/spring-cloud-first-service/src/main/resoureces" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-service-admin/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-service-admin/src/main/resoureces" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

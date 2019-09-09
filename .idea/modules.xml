@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-service-admin/hello-spring-cloud-service-admin.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-service-admin/hello-spring-cloud-service-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spirng-cloud-first.iml" filepath="$PROJECT_DIR$/.idea/spirng-cloud-first.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-first-dependencies/spring-cloud-first-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-first-dependencies/spring-cloud-first-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-first-eureka/spring-cloud-first-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-first-eureka/spring-cloud-first-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-first-service/spring-cloud-first-service.iml" filepath="$PROJECT_DIR$/spring-cloud-first-service/spring-cloud-first-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-web-admin-fegin/spring-cloud-web-admin-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-web-admin-fegin/spring-cloud-web-admin-feign.iml" />
     </modules>
   </component>
 </project>
