@@ -1,0 +1,24 @@
+#uri;仓库地址
+# search-paths:放配置文件的目录
+# github的用户名密码
+spring:
+  application:
+    name: hello-spring-cloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://git.lug.ustc.edu.cn/littlestar1/spring-cloud-config.git
+          search-paths: respo
+          username: littlestar1
+          password: li123456789
+
+#spring config 不能在application.yml中修改端口号，需要在boostrap.properties中
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
