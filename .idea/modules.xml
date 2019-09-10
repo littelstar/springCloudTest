@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-service-admin/hello-spring-cloud-service-admin.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-service-admin/hello-spring-cloud-service-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-zuul/hello-spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-zuul/hello-spring-cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spirng-cloud-first.iml" filepath="$PROJECT_DIR$/.idea/spirng-cloud-first.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-first-dependencies/spring-cloud-first-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-first-dependencies/spring-cloud-first-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-first-eureka/spring-cloud-first-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-first-eureka/spring-cloud-first-eureka.iml" />
