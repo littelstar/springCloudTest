@@ -28,6 +28,10 @@
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <!--zipkin-->
         <zipkin.version>2.10.1</zipkin.version>
+        <admin.server.version>2.1.6</admin.server.version>
+        <jolokia.version>1.6.2</jolokia.version>
+        <admin.client.version>2.1.6</admin.client.version>
+
     </properties>
 
     <dependencyManagement>
@@ -55,6 +59,28 @@
                 <artifactId>zipkin-autoconfigure-ui</artifactId>
                 <version>${zipkin.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.jolokia</groupId>
+                <artifactId>jolokia-core</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
+                <version>${admin.server.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.jolokia/jolokia-core -->
+            <dependency>
+                <groupId>org.jolokia</groupId>
+                <artifactId>jolokia-core</artifactId>
+                <version>${jolokia.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-client</artifactId>
+                <version>${admin.client.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

@@ -13,6 +13,8 @@ spring:
           search-paths: repo
           username: littlestar1
           password: li123456789
+  zipkin:
+    base-url: http://localhost:9411
 
 #spring config 不能在application.yml中修改端口号，需要在boostrap.properties中
 server:

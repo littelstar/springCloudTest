@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-admin/hello-spring-cloud-admin.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-admin/hello-spring-cloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-admin-client/hello-spring-cloud-admin-client.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-admin-client/hello-spring-cloud-admin-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-config/hello-spring-cloud-config.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-config/hello-spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-service-admin/hello-spring-cloud-service-admin.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-service-admin/hello-spring-cloud-service-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-first-client-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" />
