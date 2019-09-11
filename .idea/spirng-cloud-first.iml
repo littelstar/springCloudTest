@@ -12,6 +12,8 @@
       <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-service-admin/src/main/resoureces" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-config/src/main/resoureces" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-config/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-zipkin/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-zipkin/src/main/resoureces" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

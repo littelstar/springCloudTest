@@ -10,12 +10,10 @@
         <relativePath>../spring-cloud-first-dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>hello-spring-cloud-config</artifactId>
+    <artifactId>hello-spring-cloud-zipkin</artifactId>
     <packaging>jar</packaging>
 
-    <name>hello-spring-cloud-config</name>
-    <url>http://www.funtl.com</url>
-    <inceptionYear>2018-Now</inceptionYear>
+    <name>hello-spring-cloud-zipkin</name>
 
     <dependencies>
         <!-- Spring Boot Begin -->
@@ -38,11 +36,20 @@
         </dependency>
         <!-- Spring Boot End -->
 
-        <!-- Spring Cloud Begin -->
+
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
+        </dependency>
+        <!-- Spring Cloud Begin -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
@@ -56,7 +63,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.lpp.hello.spring.cloud.config.SpringCloudApplication</mainClass>
+                    <mainClass>com.lpp.hello.spring.cloud.zipkin.ZipKinApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
